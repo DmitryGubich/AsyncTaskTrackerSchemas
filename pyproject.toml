@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uber_popug_shemas"
+version = "0.0.1"
+authors = [
+  { name="Dmitry Gubich", email="gubich97@gmail.com" },
+]
+description = "Schema registry for UberPopugInc"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
