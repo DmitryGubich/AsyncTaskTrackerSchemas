@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="uber-popug-events",
-    version="1.2",
+    version="1.3",
     description="Schema registry for UberPopugInc",
     long_description_content_type="text/markdown",
     url="https://github.com/DmitryGubich/UberPopugIncSchemas",
