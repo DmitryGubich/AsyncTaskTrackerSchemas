@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
 setup(
     name="uber-popug-events",
@@ -7,8 +7,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/DmitryGubich/UberPopugIncSchemas",
     python_requires=">=3.9",
-    packages=["uber-popug-events"],
-    install_requires=["jsonschema"],
-    license="MIT",
+    packages=find_packages(),
+    include_package_data=True,
     platforms=["any"],
 )
