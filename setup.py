@@ -5,9 +5,9 @@ from setuptools import find_packages, setup
 current_dir = path.abspath(path.dirname(__file__))
 
 setup(
-    name="uber-popug-events",
-    version="1.5",
-    description="Provides client that can make requests to Enett",
+    name="uber-popug-schemas",
+    version="1.0",
+    description="Schema registry for UberPopugInc",
     long_description_content_type="text/markdown",
     license="MIT",
     url="https://github.com/DmitryGubich/UberPopugIncSchemas",
