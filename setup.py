@@ -6,7 +6,7 @@ current_dir = path.abspath(path.dirname(__file__))
 
 setup(
     name="uber-popug-events",
-    version="1.4",
+    version="1.5",
     description="Provides client that can make requests to Enett",
     long_description_content_type="text/markdown",
     license="MIT",
