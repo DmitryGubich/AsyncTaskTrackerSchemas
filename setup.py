@@ -7,7 +7,7 @@ current_dir = path.abspath(path.dirname(__file__))
 
 setup(
     name="uber-popug-events",
-    version="1.0",
+    version="1.1",
     description="Schema registry for UberPopugInc",
     long_description_content_type="text/markdown",
     url="https://github.com/DmitryGubich/UberPopugIncSchemas",
