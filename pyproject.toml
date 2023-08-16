@@ -18,3 +18,9 @@ classifiers = [
 dependencies = [
     "jsonschema >= 4.19.0"
 ]
+
+[tool.setuptools.packages.find]
+where = ["uber_popug_schemas"]
+
+[tool.setuptools.package-data]
+mypkg = ["*.json"]
