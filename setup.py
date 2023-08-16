@@ -12,7 +12,7 @@ setup(
     license="MIT",
     url="https://github.com/DmitryGubich/UberPopugIncSchemas",
     python_requires=">=3.9",
-    packages=find_packages(),
+    packages=find_packages("app/"),
     include_package_data=True,
     platforms=["any"],
 )
