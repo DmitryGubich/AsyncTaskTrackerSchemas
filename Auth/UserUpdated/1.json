@@ -1,0 +1,8 @@
+{
+    "type" : "object",
+    "properties" : {
+        "public_id" : {"type" : "string"},
+        "role" : {"type" : "string"}
+    },
+    "additionalProperties": false
+}
