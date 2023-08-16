@@ -1,9 +1,4 @@
-from os import path
-
-from setuptools import find_packages, setup
-
-current_dir = path.abspath(path.dirname(__file__))
-
+from setuptools import setup
 
 setup(
     name="uber-popug-events",
@@ -12,7 +7,5 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/DmitryGubich/UberPopugIncSchemas",
     python_requires=">=3.9",
-    packages=find_packages(),
-    include_package_data=True,
     platforms=["any"],
 )
