@@ -2,6 +2,7 @@
     "type" : "object",
     "properties" : {
         "public_id" : {"type" : "string"},
+        "description" : {"type" : "string"},
         "assignee" : {"type" : "string"}
     },
     "additionalProperties": false
