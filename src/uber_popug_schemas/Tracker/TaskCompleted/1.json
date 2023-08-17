@@ -5,5 +5,10 @@
         "description" : {"type" : "string"},
         "assignee" : {"type" : "string"}
     },
-    "additionalProperties": false
+    "additionalProperties": false,
+    "required": [
+        "public_id",
+        "description",
+        "assignee"
+    ]
 }

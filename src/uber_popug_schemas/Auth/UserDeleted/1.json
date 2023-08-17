@@ -3,5 +3,9 @@
     "properties" : {
         "public_id" : {"type" : "string"}
     },
-    "additionalProperties": false
+    "additionalProperties": false,
+    "required": [
+        "public_id",
+        "role"
+    ]
 }
