@@ -5,7 +5,6 @@
     },
     "additionalProperties": false,
     "required": [
-        "public_id",
-        "role"
+        "public_id"
     ]
 }
