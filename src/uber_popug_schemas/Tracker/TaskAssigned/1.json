@@ -3,12 +3,14 @@
     "properties" : {
         "public_id" : {"type" : "string"},
         "description" : {"type" : "string"},
+        "status" : {"type" : "string"},
         "assignee" : {"type" : "string"}
     },
     "additionalProperties": false,
     "required": [
         "public_id",
         "description",
+        "status",
         "assignee"
     ]
 }
