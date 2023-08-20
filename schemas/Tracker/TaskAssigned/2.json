@@ -2,16 +2,16 @@
     "type" : "object",
     "properties" : {
         "public_id" : {"type" : "string"},
-        "title" : {"type" : "string"},
-        "jira_id" : {"type" : "string"},
+        "description" : {"type" : "string"},
+        "price" : {"type" : "string"},
         "status" : {"type" : "string"},
         "assignee" : {"type" : "string"}
     },
     "additionalProperties": false,
     "required": [
         "public_id",
-        "title",
-        "jira_id",
+        "description",
+        "price",
         "status",
         "assignee"
     ]
