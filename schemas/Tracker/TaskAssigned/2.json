@@ -4,6 +4,7 @@
         "public_id" : {"type" : "string"},
         "description" : {"type" : "string"},
         "price" : {"type" : "string"},
+        "fee" : {"type" : "string"},
         "status" : {"type" : "string"},
         "assignee" : {"type" : "string"}
     },
@@ -12,6 +13,7 @@
         "public_id",
         "description",
         "price",
+        "fee",
         "status",
         "assignee"
     ]

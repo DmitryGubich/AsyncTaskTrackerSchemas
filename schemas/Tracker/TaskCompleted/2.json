@@ -1,1 +1,20 @@
-2.json
+{
+    "type" : "object",
+    "properties" : {
+        "public_id" : {"type" : "string"},
+        "description" : {"type" : "string"},
+        "price" : {"type" : "string"},
+        "fee" : {"type" : "string"},
+        "status" : {"type" : "string"},
+        "assignee" : {"type" : "string"}
+    },
+    "additionalProperties": false,
+    "required": [
+        "public_id",
+        "description",
+        "price",
+        "fee",
+        "status",
+        "assignee"
+    ]
+}
