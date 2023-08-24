@@ -7,3 +7,7 @@ class Auth:
 class Tracker:
     TASK_ASSIGNED = "Tracker.TaskAssigned"
     TASK_COMPLETED = "Tracker.TaskCompleted"
+
+
+class Accounting:
+    BALANCE_CREATED = "Accounting.BalanceCreated"

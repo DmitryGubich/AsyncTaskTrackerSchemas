@@ -1,0 +1,14 @@
+{
+    "type" : "object",
+    "properties" : {
+        "account" : {"type" : "string"},
+        "debit" : {"type" : "string"},
+        "credit" : {"type" : "string"}
+    },
+    "additionalProperties": false,
+    "required": [
+        "account",
+        "debit",
+        "credit"
+    ]
+}
